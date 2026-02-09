@@ -23,7 +23,9 @@ p {
     color: black;
     font-family: var(--font-style);
 }
-
+.p-home { 
+    text-align: center;
+}
 .div-top {
     display: flex;
     align-items: center;
