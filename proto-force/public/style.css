@@ -19,6 +19,15 @@ a {
     text-decoration: none;
     font-family: var(--font-style);
 }
+
+.div-top {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
 .footer {
   background: #d6b4f0; /* purple tone */
   padding: 4rem 2rem;
