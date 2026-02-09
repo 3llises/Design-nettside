@@ -25,11 +25,21 @@
 }
 
 .header {
-  background-color: #F3F0F3;
-  padding: 20px;
+  padding-left: 20px;
   /*  or padding-left:16px */
   text-align: left;
-  font-size: 35px;
-  color: #a349a0;
+
+ font-family: 'Jersey_25:Regular', sans-serif;
+  line-height: normal;
+  font-style: normal;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 70px;
+  color: black;
+  letter-spacing: 3.5px;
+  white-space: pre-wrap;
+
+
   
 }
