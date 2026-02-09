@@ -19,6 +19,10 @@ a {
     text-decoration: none;
     font-family: var(--font-style);
 }
+p {
+    color: black;
+    font-family: var(--font-style);
+}
 
 .div-top {
     display: flex;
