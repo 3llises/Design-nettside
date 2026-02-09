@@ -9,3 +9,7 @@ body {
     --primary-color:  #C7A5E2;
     --secondary-color: #AF76AA;
     --font-style: 'Arial', sans-serif;}
+
+h1, h2, h3 {
+    color: black;
+}
