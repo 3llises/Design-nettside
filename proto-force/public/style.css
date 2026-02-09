@@ -37,6 +37,7 @@ p {
 .footer {
   background: #d6b4f0; /* purple tone */
   padding: 4rem 2rem;
+  margin: auto 0 0 0;
 }
 
 .footer-container {
@@ -89,4 +90,11 @@ p {
 
 .footer a:hover {
   opacity: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
 }
