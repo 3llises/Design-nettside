@@ -10,6 +10,68 @@ body {
     --secondary-color: #AF76AA;
     --font-style: 'Arial', sans-serif;}
 
-h1, h2, h3 {
+h1, h2 {
     color: black;
+    text-align: center;
+    font-family: var(--font-style);
+}
+a {
+    text-decoration: none;
+    font-family: var(--font-style);
+}
+.footer {
+  background: #d6b4f0; /* purple tone */
+  padding: 4rem 2rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+}
+
+.footer-brand h3 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+  max-width: 280px;
+  opacity: 0.8;
+}
+
+.socials {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.footer-links h4 {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.85;
+}
+
+.footer a:hover {
+  opacity: 1;
 }
