@@ -34,6 +34,15 @@ p {
     padding: 1rem 2rem;
 }
 
+
+.div-center {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+}
 .footer {
   background: #d6b4f0; /* purple tone */
   padding: 4rem 2rem;
